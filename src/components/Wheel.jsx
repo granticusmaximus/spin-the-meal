@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { collection, onSnapshot } from 'firebase/firestore';
 import { db } from '../firebase/config';
-import { Button, Alert } from 'reactstrap';
+import { Button, Alert } from 'reactstrap'; //changes
 
 const RestaurantWheel = () => {
   const canvasRef = useRef(null);
